@@ -1,7 +1,8 @@
 $(document).ready(function() {
 
-	var $container = $('#content');
-	// initialize Masonry after all images have loaded  
+	// initialize Masonry
+	var $container = $('#content').masonry();
+	// layout Masonry again after all images have loaded
 	$container.imagesLoaded( function() {
   	$container.masonry();
 	});
