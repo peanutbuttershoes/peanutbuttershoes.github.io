@@ -1,75 +1,8 @@
-body {
- 	background-color: #E9E9E9;
-	font-family: 'Raleway', sans-serif;
-	text-align: center;
-	}
+body {font-family: 'Merriweather', serif; background-color: #DDDDDD; color: #333333}
 
-p {
-	font-family: 'Merriweather', serif;
-	color: #505050;
-	padding-top: -10px;
-	margin-right: 10px;
-	margin-left: 10px;
-}
+div {border-radius: 3px; background-color:#EAEAEA; margin: 3em; display: block;}
 
-a:link {
-	color: #41B1EB;
-}
+h1 {display: inline-block;}
 
-a:visited {
-	color: #41B1EB;
-}
-
-#content { 
-	max-width: 60em; /* 960 px */
-    margin: 50px auto;
-}
-
-.item {
-	display: block;
-	float: right;
-	width: 300px;
-	margin: 0 20px 20px 0;
-	border-radius: 5px;
-	background-color: white;
-	box-shadow: 0px 2px 2px #DEDEDE;
-	}
-
-.item img {
-	margin-top: 10px;
-	padding-bottom: 10px;
-	width: 280px;
-	height: auto;
-}
-
-
-
-#navbar {
-	margin-top: 30px;
-	font-size: 20px;
-	border-radius: 5px;
-	line-height: 80px;
-	display: inline-block;
-	background-color: white;
-	box-shadow: 0px 2px 2px #DEDEDE;
-	color: #9D9D9D;
-	}
-
-.tab {
- 	cursor: pointer;
- 	margin: 15px;
-	width: 190px;
-	height: 50px;
-	display: block;
-	line-height: 50px;
-	text-align: center;
-	font-size: 24px;
-	color: #FFFEDD;
-	border-radius: 2px;
-	background-color: #CFC668;
-	}
-
-.tab:hover {
-	background-color: #41B1EB;
-}
-
+#nav {font-size: 14px; margin-left: 12px;}
+#nav:hover {color: #18C43B;}
