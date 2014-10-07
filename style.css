@@ -1,8 +1,15 @@
 body {font-family: 'Merriweather', serif; background-color: #DDDDDD; color: #333333}
 
-div {border-radius: 3px; background-color:#EAEAEA; margin: 3em; display: block;}
+#backing {
+border-radius: 3px;
+background-color:#FFFFFF;
+margin: 3em;
+display: block;
+-webkit-box-shadow: 1px 0px 33px 0px rgba(163,163,163,1);
+-moz-box-shadow: 1px 0px 33px 0px rgba(163,163,163,1);
+box-shadow: 1px 0px 33px 0px rgba(163,163,163,1);}
 
 h1 {display: inline-block;}
 
-#nav {font-size: 14px; margin-left: 12px;}
+#nav {font-size: 14px; margin-left: 12px; text-decoration: none;}
 #nav:hover {color: #18C43B;}
