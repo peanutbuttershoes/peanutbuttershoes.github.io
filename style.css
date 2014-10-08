@@ -4,12 +4,22 @@ body {font-family: 'Merriweather', serif; background-color: #DDDDDD; color: #333
 border-radius: 3px;
 background-color:#FFFFFF;
 margin: 3em;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 20px;
+padding-bottom: 400px;
 display: block;
--webkit-box-shadow: 1px 0px 33px 0px rgba(163,163,163,1);
--moz-box-shadow: 1px 0px 33px 0px rgba(163,163,163,1);
-box-shadow: 1px 0px 33px 0px rgba(163,163,163,1);}
+-webkit-box-shadow: 0px 1px 3px 0px rgba(163,163,163,1);
+-moz-box-shadow: 0px 1px 3px 0px rgba(163,163,163,1);
+box-shadow: 0px 1px 3px 0px rgba(163,163,163,1);}
 
-h1 {display: inline-block;}
+h1 {display: inline-block; font-size: 24px;}
 
-#nav {font-size: 14px; margin-left: 12px; text-decoration: none;}
-#nav:hover {color: #18C43B;}
+#nav {display: block; float: none;}
+
+a {
+color: #333333;
+font-size: 14px;
+margin-left: 44px;
+text-decoration: none;}
+a:hover {color: #18C43B;}
