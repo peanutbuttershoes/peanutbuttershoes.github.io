@@ -6,6 +6,7 @@ background-image: url('img/tile.png');
 background-repeat: repeat;}
 
 #backing {
+min-width: 400px;
 border-radius: 30px;
 background-color:#FFFFFF;
 margin: 3em;
@@ -29,6 +30,6 @@ text-decoration: none;}
 
 a:hover {color: #18C43B;}
 
-.content {height: 800px;}
+img {max-width:100%}
 
 .footer {padding-top: 20px; padding-bottom: 20px; font-size: 12px; text-align: center;}
