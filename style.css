@@ -7,11 +7,11 @@ background-repeat: repeat;}
 
 #backing {
 min-width: 400px;
-border-radius: 30px;
+border-radius: 20px;
 background-color:#FFFFFF;
-margin: 3em;
-padding-left: 30px;
-padding-right: 30px;
+margin: 30px;
+padding-left: 15px;
+padding-right: 15px;
 padding-top: 30px;
 display: block;
 box-shadow: 0px 0px 6px 0px rgba(119, 119, 119, 0.6);
@@ -25,6 +25,7 @@ h1 {font-size: 38px; width:360px; margin:0 auto;}
 #nav {width: 250px; margin:0 auto; padding-top: 10px;}
 
 .content {
+padding-top: 10px;
 -webkit-column-count: 3;
 -moz-column-count: 3;
 column-count: 3;
@@ -39,7 +40,7 @@ font-size: 26px;
 margin-left: 38px;
 text-decoration: none;}
 
-a:hover {color: #18C43B;}
+a:hover {color: #E8434C;}
 
 img {
 	max-width: 100%;
