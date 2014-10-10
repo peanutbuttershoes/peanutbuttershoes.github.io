@@ -34,17 +34,8 @@ column-count: 3;
 column-width: 300px;
 }
 
-a {
-color: #333333;
-font-size: 26px;
-margin-left: 38px;
-text-decoration: none;}
-
-a:hover {color: #E8434C;}
-
 img {
 	max-width: 100%;
-	padding-top: 10px;
 	}
 
 .footer {padding-top: 20px; padding-bottom: 20px; font-size: 12px; text-align: center;}
