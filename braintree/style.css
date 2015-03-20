@@ -1,0 +1,28 @@
+body {
+    background-color: azure;
+    color: #271D24;
+}
+
+div {
+    padding-left: 100px;
+    padding-top: 20px;
+    width: 60%;
+}
+
+h1 {
+    font-size: 2.6em;
+    color: #3E5D5D;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 500;
+}
+
+b {
+    font-weight: 500;
+    color: #2ceab7;
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 300;
+    font-size: 1.4em;
+}
