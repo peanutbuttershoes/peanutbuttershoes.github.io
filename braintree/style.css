@@ -1,28 +1,30 @@
 body {
-    background-color: azure;
+    background-color: #eeeeee;
+    font-family: "Lato", Verdana, Arial, sans-serif;
+    font-size: 150%;
     color: #271D24;
+    -webkit-font-smoothing: antialiased;
 }
 
-div {
-    padding-left: 100px;
-    padding-top: 20px;
-    width: 60%;
-}
-
-h1 {
-    font-size: 2.6em;
-    color: #3E5D5D;
-    font-family: 'Source Code Pro', monospace;
-    font-weight: 500;
+.img {
+    float: left;
 }
 
 b {
-    font-weight: 500;
+    font-weight: 300;
     color: #2ceab7;
 }
 
-p {
+#box {
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 80%;
+}
+
+#title {
+    font-size: 1.6em;
+    float: right;
+    color: #3E5D5D;
     font-family: 'Source Code Pro', monospace;
-    font-weight: 300;
-    font-size: 1.4em;
+    font-weight: 500;
 }
