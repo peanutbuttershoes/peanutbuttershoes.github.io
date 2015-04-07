@@ -16,6 +16,7 @@ d {
 
 img.profile {
     border-radius: 10%;
+    margin: 40px;
 }
 
 .main {
@@ -28,12 +29,17 @@ img.profile {
 
 .box {
     margin: 0 auto;
+    padding: 40px;
     width: 80%;
     max-width: 600px;
 }
 
+p {
+    padding-bottom: 12px;    
+}
+
 h1 {
-    font-size: 2em;
+    font-size: 2.3em;
     color: #eee;
     font-family: 'Source Code Pro', monospace;
     font-weight: 500;
