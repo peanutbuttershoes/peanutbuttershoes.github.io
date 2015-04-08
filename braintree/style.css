@@ -10,13 +10,13 @@ d {
 }
 
 .header {
-    background-color: #555;
+    background-color: #343434;
     text-align: center;
 }
 
 img.profile {
     border-radius: 10%;
-    margin: 40px;
+    margin-bottom: 30px;
 }
 
 .main {
@@ -24,7 +24,7 @@ img.profile {
     font-family: "Lato", Verdana, Arial, sans-serif;
     font-size: 150%;
     color: #271D24;
-    line-height: 145%;    
+    line-height: 145%; 
 }
 
 .box {
