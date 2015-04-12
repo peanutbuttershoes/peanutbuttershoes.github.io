@@ -22,7 +22,7 @@ img.profile {
 .main {
     background-color: #eee;
     font-family: "Lato", Verdana, Arial, sans-serif;
-    font-size: 150%;
+    font-size: 1.8em;
     color: #271D24;
     line-height: 145%; 
 }
@@ -39,7 +39,7 @@ p {
 }
 
 h1 {
-    font-size: 2.3em;
+    font-size: 2.8em;
     color: #eee;
     font-family: 'Source Code Pro', monospace;
     font-weight: 500;
