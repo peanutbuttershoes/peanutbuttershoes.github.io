@@ -31,6 +31,7 @@ body {
 }
 
 .navitem {
+    text-decoration: none;
     float: left;
     margin: auto;
     margin-left: 15px;
