@@ -1,0 +1,161 @@
+/*
+
+	1312 vs. HTML5
+
+	
+
+	written by Mike "1312" (mike at thirteentwelve.com)
+
+
+	
+	A modified Eric Meyer's CSS reset and Rich Clark's HTML5 CSS reset
+
+		
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, dialog, figure, footer, header, 
+hgroup, menu, nav, section,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    font-weight: normal;
+}
+
+a { text-decoration: none; color: #000; }
+
+/* force scroll bars to stop the page jump on short pages */
+html {
+    overflow-y: scroll;
+    overflow: -moz-scrollbars-vertical;
+}
+
+body {
+	line-height: 1;
+}
+
+article, aside, dialog, figure, footer, header, 
+hgroup, nav, section { 
+    display:block;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ common elements */
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+mark {
+    background-color: #ff9;
+    color: #000;     
+    font-style:italic;
+    font-weight:bold;    
+}
+input, select {
+    vertical-align:middle;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ common classes */
+
+.floatLeft {
+	float: left;
+	text-align: left;
+}
+	img.floatLeft {
+		margin: 0 10px 10px 10px;
+	}
+	
+.floatRight {
+	float: right;
+	text-align: right;
+}
+	img.floatRight {
+		margin: 0 10px 10px 10px;
+	}
+
+.floatClear, .cleaner {
+	clear: both;
+}
+	br.floatClear {
+		margin: -1px -1px 0px 0px;
+		width: 1px;
+		height: 1px;
+		clear: both;
+	}
+
+.alignRight {
+	text-align: right;
+}
+
+.alignCenter {
+	text-align: center;
+}
+
+div.hr {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	/*
+	hr's tend to come with uncontrollable and annoying extra margins and inconsistancies on how to style them
+	but the hr is great for page breaks without css and for clearing floats
+	
+	to style a hr, restyle this in a container div in div specific
+	or have a new class, eg. div.hr-dotted { border-top: 1px dotted #666; } div.hr-dotted hr { display: none; }
+	*/
+}
+	div.hr hr {
+		display: none;
+	}
+	
+.hide {
+	display: none !important;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.noBg {
+	background: none !important;
+}
+
+.error {
+	color: #f00;
+	font-weight: bold;
+}
+
+:focus, a {
+  -moz-outline-style: none;
+  /* combatting that annoying dotted border box that appears on focus of an element in ff */
+  outline: none !important;
+  /* and the safari green glow */
+}
+
+.nb {
+    border: 0 none !important;
+}
