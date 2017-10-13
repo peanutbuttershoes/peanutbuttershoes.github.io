@@ -76,10 +76,9 @@ img {
 }
 
 .words {
-	margin: 3%;
-	margin-top: 0;
-	max-width: 1200px; 
-	color: #e0a91f;
+	background: -webkit-linear-gradient(#CCC, #F83);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	-webkit-transform: rotate(-1deg);
 	-moz-transform: rotate(-1deg);
 	-ms-transform: rotate(-1deg);
@@ -93,7 +92,7 @@ img {
 
 @media (max-width: 1000px) {
 	body {
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 	h2 {
 		font-size: 110%;
