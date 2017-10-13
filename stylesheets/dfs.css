@@ -76,6 +76,7 @@ img {
 }
 
 .words {
+	font-size: 115%;
 	background: -webkit-linear-gradient(#CCC, #F83);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
