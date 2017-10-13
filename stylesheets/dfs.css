@@ -14,7 +14,6 @@ body {
 	font-family: "ITCGaramond", "Palatino Linotype", "Palatino", serif;
 	font-size: 2.2em;
 	line-height: 120%;
-	/**letter-spacing: 0.01em;**/
 	color: #DDD;
 	background: #111;
 }
@@ -29,7 +28,7 @@ h2 {
 p {padding-bottom: 30px;}
 
 a{color: #DDD; text-decoration: none;}
-a:hover {color: #e0a91f;}
+a:hover {color: #F83;}
 
 img {
 	width: 100%;
@@ -37,7 +36,7 @@ img {
 }
 
 .wrapper {
-	margin: 10%;
+	margin: auto;
 	height: 100%;
 	margin-top: 0px;
 	margin-bottom: 0px;
