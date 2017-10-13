@@ -1,23 +1,34 @@
+@font-face {
+  font-family: 'ITCGaramond';
+  src:  url('./itcgaramond.woff2') format('woff2'),
+        url('./itcgaramond.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'ArialBlack';
+  src:  url('./arialblack.woff2') format('woff2'),
+        url('./arialblack.woff') format('woff');
+}
+
 body {
-	border: 2px, dotted, green;
-	font-family: "Palatino Linotype", "Palatino", serif;
-	font-size: 1.6em;
+	font-family: "ITCGaramond", "Palatino Linotype", "Palatino", serif;
+	font-size: 2.2em;
 	line-height: 120%;
-	letter-spacing: 0.01em;
-	color: #EEE;
+	/**letter-spacing: 0.01em;**/
+	color: #DDD;
 	background: #111;
 }
 
 h2 {
-	font-family: "MS Sans Serif", "Geneva", sans-serif;
-	font-size: 175%;
-	letter-spacing: -0.001em;
+	font-family: "ArialBlack", "MS Sans Serif", "Geneva", sans-serif;
+	font-size: 135%;
+	letter-spacing: -0.002em;
 	line-height: 113%;
 }
 
 p {padding-bottom: 30px;}
 
-a{color: #EEE; text-decoration: none;}
+a{color: #DDD; text-decoration: none;}
 a:hover {color: #e0a91f;}
 
 img {
@@ -30,7 +41,7 @@ img {
 	height: 100%;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	max-width: 800px;
+	max-width: 900px;
 }
 
 .flex {display: flex;}
@@ -69,11 +80,10 @@ img {
 	margin-top: 0;
 	max-width: 1200px; 
 	color: #e0a91f;
-	-webkit-transform: rotate(-2deg);
-	-moz-transform: rotate(-2deg);
-	-ms-transform: rotate(-2deg);
-	-o-transform: rotate(-2deg);
-	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	-webkit-transform: rotate(-1deg);
+	-moz-transform: rotate(-1deg);
+	-ms-transform: rotate(-1deg);
+	-o-transform: rotate(-1deg);
 }
 
 .foot {
@@ -83,10 +93,10 @@ img {
 
 @media (max-width: 1000px) {
 	body {
-		font-size: 1.2em;
+		font-size: 2em;
 	}
 	h2 {
-		font-size: 150%;
+		font-size: 110%;
 	}
 	.wrapper {
 		margin: 5%;
