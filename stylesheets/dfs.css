@@ -18,6 +18,10 @@ body {
 	background: #111;
 }
 
+.projects {
+	font-size: 100pt;
+}
+
 h2 {
 	font-family: "ArialBlack", "MS Sans Serif", "Geneva", sans-serif;
 	font-size: 135%;
