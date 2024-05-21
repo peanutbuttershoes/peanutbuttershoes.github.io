@@ -20,6 +20,8 @@ body {
 
 .topbig {
 	font-size: 100pt;
+	line-height: .5em;
+}
 }
 
 h2 {
