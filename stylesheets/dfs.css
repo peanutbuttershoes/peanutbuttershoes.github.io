@@ -15,7 +15,7 @@ body {
 	font-size: 2.2em;
 	line-height: 115%;
 	color: #DDD;
-	background: #111;
+	background: linear-gradient(180deg, rgba(17,17,17,1) 0%, rgba(17,16,15,1) 60%, rgba(122,42,0,1) 95%, rgba(247,184,0,1) 100%);
 }
 
 .topbig {
